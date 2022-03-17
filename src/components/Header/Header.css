@@ -1,0 +1,15 @@
+.App-header {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+h1 {
+  font-size: calc(10px + 2vmin);
+  color: white;
+  line-height: 1;
+  margin: 0;
+}
