@@ -1,10 +1,18 @@
-.App {
-  text-align: center;
+.App.dark {
+  background: black;
+  color: white;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
